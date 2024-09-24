@@ -21,7 +21,7 @@ export default function TaskPage() {
           <Title>Detalhes da tarefa</Title>
         </div>
 
-        <div className="bg-slate-200 p-4 rounded-md">
+        <div className="bg-slate-200 p-4 rounded-md w-full max-w-md mx-auto sm:w-auto">
           <h2 className="text-slate-600 text-xl font-bold">{title}</h2>
           <p className="text-slate-600">{description}</p>
         </div>
